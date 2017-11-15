@@ -121,3 +121,23 @@ void sortn::sorts(int n,int *array) {
         array[i]=arr[i];
     }
 }
+/*
+ * just for custome test
+using namespace std;
+int main()
+{
+    int arr[1000];
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    sortn::sorts(n,arr);
+
+    for(int i=0;i<n;i++)
+    {
+        cout<<arr[i]<<endl;
+    }
+}
+ */
